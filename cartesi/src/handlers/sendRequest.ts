@@ -1,14 +1,14 @@
 import { Output } from "cartesi-wallet";
 
-const sendRequest = async (input: Output, rollupServer: string) => {
-    let endpoint: string = input.type;
+const sendRequest = async (receivedOutput: Output, rollupServer: string) => {
+    let endpoint: string = `/${receivedOutput.type || "report"}`;
 
     await fetch(rollupServer + endpoint, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({ payload: input.payload })
+        body: JSON.stringify({ payload: receivedOutput.payload })
     });
 }
 
