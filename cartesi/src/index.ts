@@ -1,26 +1,11 @@
 import createClient from "openapi-fetch";
-import { components, paths } from "./schema";
+import { components, paths } from "./genTypes/schema";
+import { handleAdvance, handleInspect } from "./handlers/handlers";
+import { AdvanceRequestData, InspectRequestData, RequestHandlerResult, RollupsRequest } from "./genTypes/schemasTypes";
 
-type AdvanceRequestData = components["schemas"]["Advance"];
-type InspectRequestData = components["schemas"]["Inspect"];
-type RequestHandlerResult = components["schemas"]["Finish"]["status"];
-type RollupsRequest = components["schemas"]["RollupRequest"];
-type InspectRequestHandler = (data: InspectRequestData) => Promise<void>;
-type AdvanceRequestHandler = (
-  data: AdvanceRequestData
-) => Promise<RequestHandlerResult>;
-
-const rollupServer = process.env.ROLLUP_HTTP_SERVER_URL;
+const { ROLLUP_HTTP_SERVER_URL } = process.env;
+const rollupServer: string = ROLLUP_HTTP_SERVER_URL || "http://127.0.0.1:5004";
 console.log("HTTP rollup_server url is " + rollupServer);
-
-const handleAdvance: AdvanceRequestHandler = async (data) => {
-  console.log("Received advance request data " + JSON.stringify(data));
-  return "accept";
-};
-
-const handleInspect: InspectRequestHandler = async (data) => {
-  console.log("Received inspect request data " + JSON.stringify(data));
-};
 
 const main = async () => {
   const { POST } = createClient<paths>({ baseUrl: rollupServer });
