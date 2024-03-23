@@ -25,14 +25,15 @@ const main = async () => {
       switch (data.request_type) {
         case "advance_state":
           output = await handleAdvance(data.data as AdvanceRequestData) as Output;
+          await sendRequest(output, rollupServer);
+          status = "accept";
           break;
         case "inspect_state":
           output = await handleInspect(data.data as InspectRequestData) as Output;
+          await sendRequest(output, rollupServer);
+          status = "accept";
           break;
       }
-
-      await sendRequest(output, rollupServer);
-      status = "accept";
     } else {
       console.log(await response.text());
     }

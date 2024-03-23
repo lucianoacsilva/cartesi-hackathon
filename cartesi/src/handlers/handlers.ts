@@ -16,30 +16,40 @@ const {
     DAPP_ADDRESS_RELAY_CONTRACT 
 } = process.env;
 
-const dappAddressRelayContract: string = DAPP_ADDRESS_RELAY_CONTRACT || "";
+const dappAddressRelayContract: string = DAPP_ADDRESS_RELAY_CONTRACT || "0xF5DE34d6BbC0446E2a45719E718efEbaaE179daE";
+const etherPortalAddress: string = ETHER_PORTAL_ADDRESS || "0xFfdbe43d4c855BF7e0f105c400A50857f53AB044";
 
 const handleAdvance: AdvanceRequestHandler = async (data) => {
     console.log("Received advance request data " + JSON.stringify(data));
 
     const msgSender: Address = data.metadata.msg_sender;
 
-    if (msgSender.toLowerCase() === ETHER_PORTAL_ADDRESS?.toLowerCase()) 
-        return router.process("ether_deposit", data.payload) as Output;
-
-    // Withdraw contract
-    if (msgSender.toLowerCase() === dappAddressRelayContract.toLowerCase()) {
+    if (msgSender.toLowerCase() === etherPortalAddress.toLowerCase()) {
         try {
-            router.set_rollup_address(data.payload, "ether_withdraw");
-        } catch (error) {
-            return new Error_out(`Dapp address setup failed with error ${error}!`);
-        }
+            return router.process("ether_deposit", data.payload) as Output;
 
-        return new Report("Dapp address successfully set!");
+          } catch (error) {
+            return new Error_out(`failed to process ether deposti ${data.payload} ${error}`);
+          }
     }
+    
         
-    // withdraw call
-    const payloadParsed = JSON.parse(hexToString(data.payload));
-    return router.process(payloadParsed.method, data);
+    // // Withdraw contract
+    // if (msgSender.toLowerCase() === dappAddressRelayContract.toLowerCase()) {
+    //     try {
+    //         router.set_rollup_address(data.payload, "ether_withdraw");
+    //     } catch (error) {
+    //         return new Error_out(`Dapp address setup failed with error ${error}!`);
+    //     }
+
+    //     return new Report("Dapp address successfully set!");
+    // }
+        
+    // // withdraw call
+    // const payloadParsed = JSON.parse(hexToString(data.payload));
+    // return router.process(payloadParsed.method, data);
+
+    return new Report("Operação com erro!")
 };
 
 const handleInspect: InspectRequestHandler = async (data) => {
