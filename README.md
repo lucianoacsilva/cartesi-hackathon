@@ -1,6 +1,6 @@
 # Tofen Payment Solutions (TPS)
 
-A Tofen Payment Solutions é um SaaS que utiliza a rede blockchain para permitir que as transações financeiras internacionais ocorram de modo mais eficiente pois garante a conversão precisa de moedas e a transferência segura de pagamentos.
+A Tofen Payment Solutions é uma plataforma Software as a Service (SaaS) que utiliza a tecnologia blockchain para aumentar a eficiência das transações financeiras internacionais. Nossa operação central consiste na conversão de moedas nacionais, provenientes dos pagamentos iniciais, em tokens ERC20 destinados às carteiras digitais das instituições financeiras receptoras finais. Dessa forma, reduzimos o tempo de processamento das transações, os custos operacionais, como das taxas de câmbio, e fortalecemos a segurança das operações.
 
 ## Motivação
 
@@ -26,9 +26,9 @@ Outro aspecto crítico é a conformidade com as regulamentações internacionais
 
 É necessário garantir que a solução desenvolvida seja capaz de lidar com um aumento no volume de transações e uma expansão dos mercados internacionais. Medidas devem ser tomadas para garantir a manutenção e o suporte contínuos da solução após a implementação inicial, utilizando os recursos de desenvolvimento oferecidos pela plataforma Cartesi e sua comunidade de desenvolvedores.
 
-## Público-alvo
+## Públicos-alvo
 
-Multinacionais envolvidas no comércio eletrônico, instituições financeiras.
+Multinacionais envolvidas no comércio eletrônico e instituições financeiras.
 
 ## Proposta de valor
 
@@ -46,47 +46,46 @@ A integração da rede de pagamento não apenas aumenta a confiança entre os ag
 
 A automatização e a eficiência dos contratos inteligentes podem reduzir o tempo necessário para processar transações internacionais, oferecendo uma alternativa mais rápida e econômica aos métodos de pagamento tradicionais.
 
-## Inovação
-
-### De produto
-
-Usabilidade  
-Experiência do usuário  
-Ele atinge efetivamente a funcionalidade pretendida de maneira intuitiva?
-
-### De tecnologia
-
-Inovação no blockchain
-Inovação para a Cartesi
-
 ## Arquitetura da solução
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXX
+
+### Requisitos mínimos
+
+XXXXXXXXXXXXXXXXXXXXXXXX
+
+### Instalação e configuração
+
+XXXXXXXXXXXXXXXXXXXXXXXX
 
 ### Interações com a Cartesi
+
+XXXXXXXXXXXXXXXXXXXXXXXX
 
 O problema que sua ideia resolve é adequado para a Cartesi?  
 Com que eficácia você usou a tecnologia da Cartesi em sua solução?
 
-### Com a Ethereum
+### Interações com a Ethereum
 
-x
+XXXXXXXXXXXXXXXXXXXXXXXX
 
-## Requisitos mínimos
+### Modo de uso
 
-x
-
-## Instalação e configuração
-
-x
-
-## Modo de uso
-
-x
+XXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Demonstração
 
-x
+XXXXXXXXXXXXXXXXXXXXXXXX
+
+## Inovação
+
+A Tofen Payment Solutions inovou ao integrar a tecnologia blockchain em uma plataforma SaaS para aumentar a eficiência das transações financeiras internacionais. 
+
+Ao converter moedas nacionais em tokens ERC20 para as carteiras digitais das instituições financeiras receptoras finais, a empresa reduz o tempo de processamento das transações, os custos operacionais associados, como taxas de câmbio, e aprimora a segurança das operações financeiras.
+
+A adoção da solução é intuitiva e simples. E a tecnologia foi pensada justamente para aumentar a confiança entre os agentes da rede de pagamentos. Permitindo que as multinacionais envolvidas no comércio eletrônico e instituições financeiras possam ter uma melhor experiência ao realizar as operações.
+
+Essa abordagem inovadora promove uma solução mais rápida, econômica e segura para as transações financeiras internacionais.
 
 ## Modelo de negócios e viabilidade de mercado
 
@@ -102,15 +101,8 @@ Com uma estrutura de tokenomics clara e transparente, visamos criar um dApp sust
  
 Em resumo, nossa abordagem SaaS oferece uma vantagem competitiva significativa ao fornecer uma solução flexível, acessível e de última geração para atender às necessidades do mercado de transações financeiras internacionais.
 
+### Diretores
 
-## Contribuidores
+#### Luciano Augusto Campagnoli da Silva: Bank Technology Agent
 
-x
-
-### Criadores
-
-####Luciano Augusto Campagnoli da Silva
-Bank Technology Agent
-
-#### Pamela Cristina Cedro
-Fintech Product Manager
+#### Pamela Cristina Cedro: Fintech Product Manager
