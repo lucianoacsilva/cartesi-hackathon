@@ -22,9 +22,9 @@ As transações internacionais estão sujeitas a um maior risco de fraude e ativ
 
 Problemas, bloqueadores ou qualquer outro feedback no ciclo de vida de desenvolvimento podem ser identificados em várias áreas. Um desses pontos de atenção é a conversão de moedas, onde a questão se volta para quais contratos inteligentes podem ser implementados para automatizar o processo de conversão e como lidar com as flutuações cambiais. 
 
-Outro aspecto crítico é a conformidade com as regulamentações internacionais, onde a tecnologia blockchain e a plataforma Cartesi podem desempenhar um papel crucial. Além disso, a escalabilidade e manutenção da solução são desafios importantes a serem abordados. 
+Outro aspecto crítico é a conformidade com as regulamentações internacionais, onde a tecnologia blockchain e a plataforma Cartesi podem desempenhar um papel crucial. 
 
-É necessário garantir que a solução desenvolvida seja capaz de lidar com um aumento no volume de transações e uma expansão dos mercados internacionais. Medidas devem ser tomadas para garantir a manutenção e o suporte contínuos da solução após a implementação inicial, utilizando os recursos de desenvolvimento oferecidos pela plataforma Cartesi e sua comunidade de desenvolvedores.
+Além disso, a escalabilidade e manutenção da solução são desafios importantes a serem abordados. É necessário garantir que a solução desenvolvida seja capaz de lidar com um aumento no volume de transações e uma expansão dos mercados internacionais. Medidas devem ser tomadas para garantir a manutenção e o suporte contínuos da solução após a implementação inicial, utilizando os recursos de desenvolvimento oferecidos pela plataforma Cartesi e sua comunidade de desenvolvedores.
 
 ## Públicos-alvo
 
@@ -32,7 +32,9 @@ Multinacionais envolvidas no comércio eletrônico e instituições financeiras.
 
 ## Proposta de valor
 
-Em um mundo cada vez mais digitalizado, a busca por soluções financeiras seguras, eficientes e econômicas é fundamental. Neste contexto, as moedas digitais baseadas em blockchain emergem como uma resposta sólida, incorporando princípios de criptografia, descentralização e transparência para garantir um ambiente confiável para transações financeiras. Além disso, ao eliminar intermediários desnecessários e simplificar processos, essas soluções não só reduzem custos operacionais, mas também oferecem uma alternativa mais rápida e econômica para transações internacionais, impactando positivamente a experiência do consumidor.
+Em um mundo cada vez mais digitalizado, a busca por soluções financeiras seguras, eficientes e econômicas é fundamental. Neste contexto, as moedas digitais baseadas em blockchain emergem como uma resposta sólida, incorporando princípios de criptografia, descentralização e transparência para garantir um ambiente confiável para transações financeiras. 
+
+Ao eliminar intermediários desnecessários e simplificar processos, essas soluções não só reduzem custos operacionais, mas também oferecem uma alternativa mais rápida e econômica para transações internacionais, impactando positivamente a experiência do consumidor.
 
 ### Moeda segura
 
