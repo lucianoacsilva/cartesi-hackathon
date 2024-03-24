@@ -2,6 +2,8 @@
 
 A Tofen Payment Solutions é uma plataforma Software as a Service (SaaS) que utiliza a tecnologia blockchain para aumentar a eficiência das transações financeiras internacionais. Nossa operação central consiste na conversão de moedas nacionais, provenientes dos pagamentos iniciais, em tokens ERC20 destinados às carteiras digitais das instituições financeiras receptoras finais. Dessa forma, reduzimos o tempo de processamento das transações, os custos operacionais, como das taxas de câmbio, e fortalecemos a segurança das operações.
 
+Slogan: Tofen, transações mais fluídas com tokens!
+
 ## Motivação
 
 As transações financeiras internacionais enfrentam grandes desafios como altas taxas e custos ocultos, lentidão nas transações e riscos de fraude e segurança. 
