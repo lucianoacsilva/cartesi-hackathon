@@ -107,6 +107,6 @@ Em resumo, nossa abordagem SaaS oferece uma vantagem competitiva significativa a
 
 ### Diretores
 
-#### Luciano Augusto Campagnoli da Silva: Bank Technology Agent
+#### Luciano Augusto Campagnoli da Silva: Bank Technology Agent.
 
-#### Pamela Cristina Cedro: Fintech Product Manager
+#### Pamela Cristina Cedro: Fintech Product Manager.
