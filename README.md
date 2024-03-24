@@ -117,7 +117,7 @@ Despite of those considerations, there can be also requirements that force the s
 
 XXXXXXXXXXXXXXXXXXXXXXXX
 
-### Usage Instructions
+### User journey
 
 XXXXXXXXXXXXXXXXXXXXXXXX
 
