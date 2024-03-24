@@ -8,15 +8,15 @@ Slogan: Tofen, transações financeiras internacionais mais fluídas com tokens!
 
 As transações financeiras internacionais enfrentam grandes desafios como altas taxas e custos ocultos, lentidão nas transações e riscos de fraude e segurança. 
 
-### Altas Taxas e Custos Ocultos
+### Altas taxas e custos ocultos
 
-Muitas vezes, as transações internacionais são acompanhadas por taxas elevadas cobradas pelos bancos e intermediários financeiros. Além disso, há custos ocultos, como taxas de câmbio, que podem aumentar o custo total da transação.
+As altas taxas cobradas pelos bancos e intermediários financeiros. Além de custos ocultos, como taxas de câmbio, aumentam o custo total da transação.
 
 ### Lentidão
 
 As transações internacionais geralmente levam mais tempo para serem processadas devido à necessidade de envolvimento de múltiplos intermediários e à conformidade com regulamentações transfronteiriças. 
 
-### Risco de Fraude e Segurança
+### Risco de fraude e segurança
 
 As transações internacionais estão sujeitas a um maior risco de fraude e atividades fraudulentas devido à complexidade e à falta de padronização nos sistemas financeiros globais. A segurança das informações pessoais e financeiras durante o processo de transferência também é uma preocupação.
 
