@@ -52,15 +52,56 @@ The automation and efficiency of smart contracts reduce the time required to pro
 
 ## Solution Architecture
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+
+The solution relays on the basic purpose of Cartesi Dapps, which is:
+
+- Execute routes provided by the dApp deployed in the Cartesi layer via Cartesi virtual machine;
+- Obtain resultant voucher from those executions;
+- Execute those vouchers to submit, in fact, the transactions in layer 1 Ethereum Blockchain of developers' choice;
+
+This scenario is illustrated as in the following image (available in https://docs.cartesi.io/cartesi-rollups/http-api/):
+
+![Basic architecture](./img/cartesi-voucher.png)
+
+There were made three smart contracts for the EVM layer 1 network in this use case (which can be found within **Hardhat** project, located in the **hardhat** folder). The follows the ERC-20 patter for fungible tokens, and brief description of them follows:
+
+- **CommonCurrency**: represents a common currency for commerce among two or more countries. In this scenario, only two are exemplified. Highlights by two methods of this contract, which are mint (generation of tokens of the contract) and transferFrom (transfers unities of the token from one EVM address to another).
+
+- **CurrencyCountryA**: token which represents a fiduciary currency of a country A. There are some important methods to notice in it, such as:
+    - **setConversionRate**: sets a conversion rate from token **CurrencyCountryA** to some other, represented by the input address of the method (in this case, would be the common currency previously described address);
+    - **convertToCommonCurrency**: converts token unities of **CurrencyCountry** from the invoker's balance to the common currency token (represented by the parameter **_targetCurrency**, which is a address);
+    - **withdrawCommonCurrency**: withdraws token unities of **CurrencyCountry** from the common currency token contract(represented by the parameter **_targetCurrency**, which is a address) to the invoker's balance;
+
+- **CurrencyCountryB**: replica of **CurrencyCountryB**, but for another country B;
 
 ### Minimum Requirements
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+To execute the project, it is necessary to have installed:
+
+- Node.js installed;
+- Docker;
 
 ### Installation and Configuration
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+To configure the project, it is necessary to install **Sunodo CLI**, which can be done by runnig:
+
+```bash
+npm install -g @sunodo/cli
+```
+
+After that, move to **cartesi-hackathon/cartesi** directory, and run:
+
+```bash
+sunodo build
+```
+
+If the Docker image of the dApp is built successfully, run:
+
+```bash
+sunodo run
+```
+
+This will deploy the dApp inside the Cartesi Rollup server together with a local EVM network, a GraphQL query server, an explorer application (to inspect the state of the Cartesi network) and a inspect server (from which is possible to query artifacts produced by rollup advance operations, such as notices, vouchers and reports).
 
 ### Interactions with Cartesi
 
