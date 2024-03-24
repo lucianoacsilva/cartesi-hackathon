@@ -99,7 +99,7 @@ Com os SaaS, os clientes desfrutam de uma abordagem baseada em assinatura, elimi
 
 Hospedado na nuvem, nosso software oferece acesso remoto, permitindo que os usuários acessem a plataforma de qualquer lugar com conexão à internet, garantindo flexibilidade e conveniência. 
 
-A escalabilidade inerente ao modelo SaaS permite que nos adaptemos às necessidades em constante evolução de nossos clientes, enquanto nossa integração com o ecossistema Web3 abre portas para novas oportunidades de valor, como a possibilidade de utilizar tokens customizados e as modeas dos próprios países. 
+A escalabilidade inerente ao modelo SaaS permite que nos adaptemos às necessidades em constante evolução de nossos clientes, enquanto nossa integração com o ecossistema Web3 abre portas para novas oportunidades de valor, como a possibilidade de utilizar as modeas dos próprios países e tokens ERC20. 
 
 Com uma estrutura de tokenomics clara e transparente, visamos criar um dApp sustentável que promova a adoção e a participação ativa dentro do ecossistema, impulsionando ainda mais o valor para nossos usuários. 
  
