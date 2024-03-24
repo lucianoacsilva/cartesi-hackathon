@@ -22,7 +22,7 @@ As transações internacionais estão sujeitas a um maior risco de fraude e ativ
 
 Problemas, bloqueadores ou qualquer outro feedback no ciclo de vida de desenvolvimento podem ser identificados em várias áreas. Um desses pontos de atenção é a conversão de moedas, onde a questão se volta para quais contratos inteligentes podem ser implementados para automatizar o processo de conversão e como lidar com as flutuações cambiais. 
 
-Outro aspecto crítico é a conformidade com as regulamentações internacionais, onde a tecnologia blockchain e a plataforma Cartesi podem desempenhar um papel crucial. 
+Outro aspecto crítico é a conformidade com as regulamentações internacionais que pode resultar em multas e penalidades por parte das autoridades reguladoras, aumentando os custos operacionais das instituições financeiras. A falta de conformidade também pode levar à perda de confiança dos clientes e investidores, afetando negativamente a reputação da instituição financeira e reduzindo sua base de clientes. 
 
 Além disso, a escalabilidade e manutenção da solução são desafios importantes a serem abordados. É necessário garantir que a solução desenvolvida seja capaz de lidar com um aumento no volume de transações e uma expansão dos mercados internacionais. Medidas devem ser tomadas para garantir a manutenção e o suporte contínuos da solução após a implementação inicial, utilizando os recursos de desenvolvimento oferecidos pela plataforma Cartesi e sua comunidade de desenvolvedores.
 
@@ -34,7 +34,7 @@ Multinacionais envolvidas no comércio eletrônico e instituições financeiras.
 
 Em um mundo cada vez mais digitalizado, a busca por soluções financeiras seguras, eficientes e econômicas é fundamental. Neste contexto, as moedas digitais baseadas em blockchain emergem como uma resposta sólida, incorporando princípios de criptografia, descentralização e transparência para garantir um ambiente confiável para transações financeiras. 
 
-Ao eliminar intermediários desnecessários e simplificar processos, essas soluções não só reduzem custos operacionais, mas também oferecem uma alternativa mais rápida e econômica para transações internacionais, impactando positivamente a experiência do consumidor.
+E ao eliminar intermediários desnecessários e simplificar processos, essas soluções não só reduzem custos operacionais, mas também oferecem uma alternativa mais rápida e econômica para transações internacionais, impactando positivamente a experiência do consumidor.
 
 ### Moeda segura
 
@@ -46,7 +46,7 @@ A integração da rede de pagamento não apenas aumenta a confiança entre os ag
 
 ### Redução do tempo de transação
 
-A automatização e a eficiência dos contratos inteligentes podem reduzir o tempo necessário para processar transações internacionais, oferecendo uma alternativa mais rápida e econômica aos métodos de pagamento tradicionais.
+A automatização e a eficiência dos contratos inteligentes reduz o tempo necessário para processar transações internacionais, oferecendo uma alternativa mais rápida e econômica aos métodos de pagamento tradicionais.
 
 ## Arquitetura da solução
 
