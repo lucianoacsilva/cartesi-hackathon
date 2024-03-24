@@ -101,13 +101,17 @@ If the Docker image of the dApp is built successfully, run:
 sunodo run
 ```
 
-This will deploy the dApp inside the Cartesi Rollup server together with a local EVM network, a GraphQL query server, an explorer application (to inspect the state of the Cartesi network) and a inspect server (from which is possible to query artifacts produced by rollup advance operations, such as notices, vouchers and reports).
+This will deploy the dApp inside the Cartesi Rollup server together with a local EVM Foundry network, a GraphQL query server, an explorer application (to inspect the state of the Cartesi network) and a inspect server (from which is possible to query artifacts produced by rollup advance operations, such as notices, vouchers and reports).
+
+After that, it is necessary to deploy the three ERC-20 contracts previously mentioned, which hold the core business logic of the use case. This can be done by a sort of ways (such like through the Hardhat scripts project aiming to the Foundry network connected to the Rollup Server, or even using Remix IDE, per example).
 
 ### Interactions with Cartesi
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+The idea provided by Toffen Payment Solutions would be suitable for Cartesi platform comparing to traditional EVM blockchain platforms, such like Ethereum, due to its gains of performance and prize when executing transactions. However, it is important to notice that there are currently other networks which solve questions of gas price, such as Polygon (in which gas costs something in order of cents of dollar). 
 
-Is the problem your idea solves suitable for Cartesi? How effectively did you use Cartesi's technology in your solution?
+For this specific scenario, there are some platforms to create private blockchain EVM networks, such as **Hyperledger Besu** (https://www.hyperledger.org/projects/besu) and **ConsenSys Quorum** (https://consensys.net/Quorum/). These two solutions also solves issues of performance and costs, since they can build small networks with more efficient consensus protocol (such like Byzantine Fault Tolerance ones) and with gas price set to any value defined by the network administrator (including zero). Also, since they can offer privacy to the network, avoid generic agents to enter and validate transactions in it, in corporate use cases (which, in general, are more restrict),they could also be adopted.
+
+Despite of those considerations, there can be also requirements that force the solution to be hosted in a public network, for effects of transparency in a public international context like the one presented. Considering this additional feature, Cartesi could a good fit for the use case provided by Toffen Payment Solutions, also due to its advantages previously mentioned.
 
 ### Interactions with Ethereum
 
