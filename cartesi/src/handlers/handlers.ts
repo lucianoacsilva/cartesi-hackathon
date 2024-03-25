@@ -23,6 +23,7 @@ const handleAdvance: AdvanceRequestHandler = async (data) => {
     console.log("Received advance request data " + JSON.stringify(data));
 
     const msgSender: Address = data.metadata.msg_sender;
+    const payloadStr = hexToString(data.payload);
 
     if (msgSender.toLowerCase() === etherPortalAddress.toLowerCase()) {
         try {
@@ -45,11 +46,15 @@ const handleAdvance: AdvanceRequestHandler = async (data) => {
     //     return new Report("Dapp address successfully set!");
     // }
         
-    // // withdraw call
-    // const payloadParsed = JSON.parse(hexToString(data.payload));
-    // return router.process(payloadParsed.method, data);
-
-    return new Report("Operação com erro!")
+    try{
+      const jsonpayload = JSON.parse(payloadStr);
+      console.log("payload is");
+      return router.process(jsonpayload.method, data);
+    } catch (error) {
+      console.log("error is")
+      console.log(error);
+      return new Error_out(`failed ot process ERC20Deposit ${data.payload} ${error}`);
+    }
 };
 
 const handleInspect: InspectRequestHandler = async (data) => {
