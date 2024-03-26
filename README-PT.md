@@ -50,36 +50,9 @@ A integração da rede de pagamento não apenas aumenta a confiança entre os ag
 
 A automatização e a eficiência dos contratos inteligentes reduz o tempo necessário para processar transações internacionais, oferecendo uma alternativa mais rápida e econômica aos métodos de pagamento tradicionais.
 
-## Arquitetura da solução
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-### Requisitos mínimos
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-### Instalação e configuração
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-### Interações com a Cartesi
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-O problema que sua ideia resolve é adequado para a Cartesi?  
-Com que eficácia você usou a tecnologia da Cartesi em sua solução?
-
-### Interações com a Ethereum
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-### Modo de uso
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
 ## Demonstração
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+https://streamyard.com/ejtbvuejyi78q5pi
 
 ## Inovação
 
