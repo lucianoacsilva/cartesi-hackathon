@@ -113,17 +113,9 @@ For this specific scenario, there are some platforms to create private blockchai
 
 Despite of those considerations, there can be also requirements that force the solution to be hosted in a public network, for effects of transparency in a public international context like the one presented. Considering this additional feature, Cartesi could a good fit for the use case provided by Toffen Payment Solutions, also due to its advantages previously mentioned.
 
-### Interactions with Ethereum
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
-### User journey
-
-XXXXXXXXXXXXXXXXXXXXXXXX
-
 ## Demonstration
 
-XXXXXXXXXXXXXXXXXXXXXXXX
+https://streamyard.com/ejtbvuejyi78q5pi
 
 ## Innovation
 
